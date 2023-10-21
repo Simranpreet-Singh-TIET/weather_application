@@ -1,24 +1,8 @@
 const url = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=';
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': 'f106d52b88msh4bdd10ebed66ff1p18790cjsnd9c6898e3257',
-// 		'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
-// 	}
-// };
-
-// try {
-// 	const response = await fetch(url, options);
-// 	const result = await response.text();
-// 	console.log(result);
-// } catch (error) {
-// 	console.error(error);
-// }
-
 const options = {
     method: "GET",
     headers: {
-        'X-RapidAPI-Key': 'f106d52b88msh4bdd10ebed66ff1p18790cjsnd9c6898e3257',
+        'X-RapidAPI-Key': 'your api key here',
         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
     },
   };
